@@ -9,34 +9,48 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="BaseClass">
       <UniqueIdentifier>{bf10b646-55c9-4cb1-b51c-5a71dd01bc11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECC">
+      <UniqueIdentifier>{b1262cc9-8778-4a9e-b1ca-3cf99baa6cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{4f74b076-f64f-4222-b854-ebd17c5ccf70}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Ecc.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="BaseClass.cpp">
       <Filter>BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Ecc.cpp">
+      <Filter>ECC</Filter>
+    </ClCompile>
+    <ClCompile Include="EccTest.cpp">
+      <Filter>ECC</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5Test.cpp">
+      <Filter>MD5</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Ecc.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="BaseClass.h">
       <Filter>BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Ecc.h">
+      <Filter>ECC</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>MD5</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

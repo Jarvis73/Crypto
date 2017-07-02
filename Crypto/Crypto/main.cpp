@@ -1,10 +1,10 @@
 #include "resource.h"
 #include "Ecc.h"
-#include "MD5.h"
+#include "MyHash.h"
 
 int main()
 {
-	EccTest();
+	MD5Test();
 
 	return 0;
 }

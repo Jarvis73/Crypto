@@ -15,7 +15,7 @@
     <Filter Include="ECC">
       <UniqueIdentifier>{b1262cc9-8778-4a9e-b1ca-3cf99baa6cfd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="MD5">
+    <Filter Include="Hash">
       <UniqueIdentifier>{4f74b076-f64f-4222-b854-ebd17c5ccf70}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -32,11 +32,11 @@
     <ClCompile Include="EccTest.cpp">
       <Filter>ECC</Filter>
     </ClCompile>
-    <ClCompile Include="MD5.cpp">
-      <Filter>MD5</Filter>
-    </ClCompile>
     <ClCompile Include="MD5Test.cpp">
-      <Filter>MD5</Filter>
+      <Filter>Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHash.cpp">
+      <Filter>Hash</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -49,8 +49,8 @@
     <ClInclude Include="Ecc.h">
       <Filter>ECC</Filter>
     </ClInclude>
-    <ClInclude Include="MD5.h">
-      <Filter>MD5</Filter>
+    <ClInclude Include="MyHash.h">
+      <Filter>Hash</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-#include "MD5.h"
+#include "MyHash.h"
 
 int MD5Test()
 {
@@ -6,9 +6,9 @@ int MD5Test()
 	uchar plaintext[] = "My brother likes banana. A quick brown fox jump over the lazy dog.";
 	printf("\n Original text is: %s\n", plaintext);
 
-	MyMD5 md5_obj;
+	MyHash md5_obj;
 
-	md5_obj.hash(plaintext, hashcode);
+	md5_obj.MyMD5(plaintext, hashcode);
 
 	printf("\n The digest number is: %s\n\n", hashcode);
 

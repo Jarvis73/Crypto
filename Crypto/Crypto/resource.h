@@ -16,8 +16,8 @@ typedef struct tagECCInfo
 	char *p;
 	char *a;
 	char *b;
-	char *AlphaX;
-	char *AlphaY;
+	char *Gx;
+	char *Gy;
 	char *n;
 	char *d;
 } ECCInfo;
@@ -25,8 +25,7 @@ typedef struct tagECCInfo
 /* 用于ECC的密文结构 */
 typedef struct tagCiphertext
 {
-	uchar *Y0;
-	uchar *Y1;
-	uchar *Y2;
+	uchar *r;
+	uchar *s;
 } Ciphertext;
 

@@ -1,14 +1,14 @@
-#include "MD5.h"
+#include "MyHash.h"
 
-MyMD5::MyMD5()
+MyHash::MyHash()
 {
 }
 
-MyMD5::~MyMD5()
+MyHash::~MyHash()
 {
 }
 
-void MyMD5::hash(uchar * plaintext, uchar * hashcode)
+void MyHash::MyMD5(uchar * plaintext, uchar * hashcode)
 {
 	uchar tmp[512];
 	MD5(plaintext, strlen((char *)plaintext), tmp);

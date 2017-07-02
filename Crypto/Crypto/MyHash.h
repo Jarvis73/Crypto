@@ -3,12 +3,12 @@
 #include "resource.h"
 #include "BaseClass.h"
 
-class MyMD5 : public Crypto
+class MyHash : public Crypto
 {
 public:
-	MyMD5();
-	~MyMD5();
-	void hash(uchar *plaintext, uchar *hashcode);
+	MyHash();
+	~MyHash();
+	void MyMD5(uchar *plaintext, uchar *hashcode);
 };
 
 /* MD5≤‚ ‘ */

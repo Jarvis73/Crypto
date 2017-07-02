@@ -34,25 +34,23 @@ public:
 	bool ecdsa_validation(Ciphertext & signature, uchar *plaintext);
 
 private:
-	EC_GROUP *group;			/* 定义椭圆曲线群 */
-	EC_POINT *Alpha, *T, *Beta;	/* 基点, 临时点, 公钥点 */
+	EC_GROUP *group;		/* 定义椭圆曲线群 */
+	EC_POINT *G, *T, *R;	/* 基点, 临时点, 公钥点 */
 
 	BN_CTX  *ctx;
 	BIGNUM  *a,				/* 椭圆曲线系数1 */
 			*b,				/* 椭圆曲线系数2 */
 			*p,				/* 椭圆曲线模数 */
 			*n,				/* 基点的阶数 */
-			*AlphaX,		/* 基点横坐标 */
-			*AlphaY,		/* 基点纵坐标 */
+			*Gx,			/* 基点横坐标 */
+			*Gy,			/* 基点纵坐标 */
 			*Tx,			/* 临时点横坐标 */
 			*Ty;			/* 临时点纵坐标 */
-	BIGNUM  *ptextX1,		/* 明文 -- plain text x1 */
-			*ptextX2,		/* 明文 -- plain text x2 */
+	BIGNUM  *ptext,			/* 明文 -- plain text */
 			*d,				/* 私钥 */
 			*k,				/* 随机数 */
-			*ctextY0,		/* 密文0 -- cipher text y0 */
-			*ctextY1,		/* 密文1 -- cipher text y1 */
-			*ctextY2;		/* 密文2 -- cipher text y2 */
+			*ctextr,		/* 密文0 -- cipher text r */
+			*ctexts;		/* 密文1 -- cipher text s */
 };
 
 

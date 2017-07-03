@@ -18,6 +18,9 @@
     <Filter Include="Hash">
       <UniqueIdentifier>{4f74b076-f64f-4222-b854-ebd17c5ccf70}</UniqueIdentifier>
     </Filter>
+    <Filter Include="RSA">
+      <UniqueIdentifier>{4cc9b805-fe7f-4a4b-b3f0-fc13dc6d1a8d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -32,11 +35,17 @@
     <ClCompile Include="EccTest.cpp">
       <Filter>ECC</Filter>
     </ClCompile>
-    <ClCompile Include="MD5Test.cpp">
-      <Filter>Hash</Filter>
-    </ClCompile>
     <ClCompile Include="MyHash.cpp">
       <Filter>Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTest.cpp">
+      <Filter>Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="Rsa.cpp">
+      <Filter>RSA</Filter>
+    </ClCompile>
+    <ClCompile Include="RsaTest.cpp">
+      <Filter>RSA</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +60,9 @@
     </ClInclude>
     <ClInclude Include="MyHash.h">
       <Filter>Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="Rsa.h">
+      <Filter>RSA</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

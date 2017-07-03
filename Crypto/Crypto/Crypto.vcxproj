@@ -149,13 +149,16 @@
     <ClCompile Include="EccTest.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MyHash.cpp" />
-    <ClCompile Include="MD5Test.cpp" />
+    <ClCompile Include="HashTest.cpp" />
+    <ClCompile Include="Rsa.cpp" />
+    <ClCompile Include="RsaTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseClass.h" />
     <ClInclude Include="Ecc.h" />
     <ClInclude Include="MyHash.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Rsa.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

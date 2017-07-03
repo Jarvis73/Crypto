@@ -6,6 +6,8 @@
 #include <openssl\bn.h>
 #include <openssl\ec.h>
 #include <openssl\md5.h>
+#include <openssl\sha.h>
+#include <openssl\rsa.h>
 
 typedef unsigned char uchar;
 typedef unsigned int uint;
